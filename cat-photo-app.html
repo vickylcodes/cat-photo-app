@@ -49,9 +49,34 @@
                     Cats <strong>hate</strong> other cats.
                 </figcaption>
             </figure>
-
+        </section>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo"></form>
+            <fieldset>
+                <legend>
+                    Is your cat an indoor or outdoor cat?
+                </legend>
+                <label for="indoor">
+                    <input type="radio" name="indoor-outdoor" id="indoor" value="indoor" checked> Indoor
+                </label>
+                <label for="outdoor">
+                    <input type="radio" name="indoor-outdoor" id="outdoor" value="outdoor"> Outdoor
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input type="checkbox" name="personality" id="loving" value="loving" checked>
+                <label for="loving">Loving</label>
+                <input type="checkbox" name="personality" id="lazy" value="lazy">
+                <label for="lazy">Lazy</label>
+                <input type="checkbox" name="personality" id="energetic" value="energetic">
+                <label for="energetic">Energetic</label>
+            </fieldset>
 
         </section>
+
+
     </main>
 
 </body>
